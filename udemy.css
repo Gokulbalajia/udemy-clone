@@ -1,0 +1,163 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.nav2 {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    font-size: 16px;
+}
+
+.nav2 input {
+    width: 60%;
+    border: none;
+    outline: none;
+}
+
+.nav3 {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    font-size: 16px;
+}
+
+.nav3:hover {
+    cursor: pointer;
+}
+
+.navbar2 {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    justify-content: space-around;
+
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+    background-color: darkorchid;
+    padding: 10px;
+    border-radius: 30px;
+    color: white;
+}
+
+.one:hover,
+.two:hover,
+.three:hover,
+.four:hover,
+.five:hover,
+.six:hover {
+    cursor: pointer;
+    background-color: purple;
+}
+
+.sales img {
+
+    width: 100%;
+
+}
+
+.course {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+
+.recommand {
+
+    padding: 10px;
+
+}
+
+.topic-recommendations p {
+
+    border: 1px solid black;
+    padding: 20px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+
+}
+
+.topic-recommendations {
+
+    padding: 20px;
+    flex-wrap: wrap;
+    flex-basis: 25;
+    display: flex;
+    gap: 10px;
+}
+
+.topic-recommendations p:hover {
+    cursor: pointer;
+    background-color: rgb(206, 128, 224);
+    color: white;
+}
+
+.most-popular {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+
+}
+.most-popular div {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+
+
+.most-popular img {
+    width: 250px;
+}
+
+.footer {
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+}
+.footer p{
+    margin-top: 10px;
+}
+.final{
+    background-color: black;
+    color: white;
+}
+.most-popular-heading{
+    
+    padding: 10px;
+}
